@@ -1,0 +1,33 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Websockets implementation on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordov/websockets.git"
+  },
+  "keywords": [
+    "websockets",
+    "Node.js",
+    "socket.io",
+    "Express",
+    "Chat"
+  ],
+  "author": "Nordov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nordov/websockets/issues"
+  },
+  "homepage": "https://github.com/nordov/websockets#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
